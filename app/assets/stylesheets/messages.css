@@ -1,0 +1,65 @@
+.wrapper{
+  display: flex;
+}
+/* サイドバー */
+.side-bar{
+  background-color: #253141;
+  height: 100vh;
+  width: 300px;
+}
+.side-header{
+  background-color: #253141;
+  height: 100px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user-name a{
+  font-size: 16px;
+  color: #FAFAFA;
+  text-decoration: none;
+  padding-left: 20px;
+}
+.make-chatroom a{
+  font-size: 10px;
+  color: deepskyblue;
+  border: 1px solid lightblue;
+  text-decoration: none;
+  margin-left: 20px;
+  padding: 14px;
+}
+.room-lists{
+  background-color: #2F3E51;
+  height: calc(100vh - 100px);
+  padding: 0 20px;
+  overflow: scroll;
+}
+.room{
+  padding: 20px 20px 40px 20px;
+}
+.room a{
+  color: white;
+}
+
+/* メインチャット画面 */
+.chat{
+  background-color: #FFFFFF;
+  width: calc(100vw - 300px);
+}
+
+.main-header{
+  background-color: #FFFFFF;
+  height: 100px;
+  padding: 0 40px;
+}
+.message-area{
+  background-color: #FAFAFA;
+  height: calc(100vh - 100px - 90px);
+  padding: 46px 40px 0 40px;
+}
+.input-form{
+  background-color: #DDDDDD;
+  height: 90px;
+  padding: 20px 40px;
+}
